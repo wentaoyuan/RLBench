@@ -20,6 +20,9 @@ class FalseCondition(object):
     def condition_met(self):
         return False, False
 
+    def reset(self):
+        pass
+
 
 class ColorCondition(object):
     def _init_(self, shape: Shape, success_rgb: List[float]):
